@@ -1,0 +1,136 @@
+body {
+    background-color: #121826;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 400px;
+    width: 500px;
+    background-color: rgba(161, 161, 169, 0.1);
+    border-radius: 1rem;
+    border: 1.5px solid rgba(206, 211, 221, 0.2);
+    margin-top: 10rem;
+}
+
+h1{
+    font-size: 1.65rem;
+    margin: 2rem;
+    margin-top: 2rem;
+    margin-left: 1.3rem;
+    font-weight: 450;
+}
+
+label{
+    margin-left: 1.3rem;
+    margin-bottom: 0.5rem ;
+    color: #A1A1A9;
+}
+
+input {
+    padding-left: 1rem;
+    height: 40px;
+    width: 400px;
+    margin: 1.3rem;
+    margin-top: 0.5rem;
+    background-color: transparent;
+    border-radius: 0.7rem;
+    border: 2px solid rgba(206, 211, 221, 0.2);
+}
+input::placeholder {
+    color: #4D5562; 
+}
+
+button{
+    height: 40px;
+    width: 130px;
+    border-radius: 25px;
+    margin: 1.5rem;
+    margin-left: 10rem;
+    color: white;
+    background-color: #845EEE;
+    border: none;
+    
+}
+
+#img{
+    position: fixed;
+    margin-top: -30rem;
+    margin-left: -70rem;
+}
+
+#img2 {
+    position: fixed;
+    bottom: -25rem;
+    right: -15rem;
+}
+
+.next-page {
+    display: flex;
+    color: #4D5562;
+}
+
+.circle {
+    display: flex;
+    margin: 0.5rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.inner-circle {
+    height: 10px;
+    width: 10px;
+    margin: 0.5rem;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: rgba(132, 94, 238, 0.4);
+    margin-top: 0.4rem;
+}
+
+.outer-circle {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #845EEE;
+}
+
+.cmn {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 0.7rem;
+    background-color: #4D5562;
+}
+.cmn2 {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin: 0.7rem;
+    background-color: #845EEE;
+}
+
+
+/* for js */
+
+.optnsStyle {
+        display: flex;
+        text-align: center;
+        margin-top: auto;
+        padding-left: 0.5rem;
+        height: 50px;
+        width: 400px;
+        margin: 1.3rem;
+        margin-top: 0.7rem;
+        background-color: transparent;
+        border-radius: 0.7rem;
+        border: 2px solid rgba(206, 211, 221, 0.2);
+    
+}
+

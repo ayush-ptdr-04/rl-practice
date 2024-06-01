@@ -1,0 +1,253 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+.navbar{
+    margin: 0%;
+    padding: 0%; 
+    width: 100%;
+    height: 6.25rem;
+    background: #524D4D;
+}
+ .navbar .logo {
+    padding: 20px;
+    display: inline-block;
+}
+
+.navbar ul{
+    margin-right: 3rem;
+    float: right;
+    margin-top: -0.9rem;
+}
+.navbar ul li{
+    margin-right:10px;
+    display: inline-block;
+    line-height: 100px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    list-style: none;
+    line-height: 100px;
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+
+#join-us{
+    height: 3.5rem;
+    width: 8rem;
+    background-color: #FFA500;
+    border-radius: 0.5rem;
+    border: none;
+    font-size: 1.7rem;
+    font-weight: 350;
+} 
+
+/* this is my section1 */
+
+.section1 {
+    height: 45rem;
+    width: 100%;
+    background-color: black;
+    background-image: url("Rectangle\ 55.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 h1{
+    line-height: 8rem;
+    font-size: 4.5rem;
+    color: rgba(250, 246, 246, 0.5);
+    text-align: center;
+}
+.section1 .our-classes {
+    background-image: url("Fitness_Star_Gym 2/gym 1classes.png");
+    height: 45rem;
+    width: 100%;
+    opacity: 0.4;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sechdule{
+    margin-top: -2rem;
+    color: white;
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sechdule h1{
+    line-height: 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.time-btn h1{
+    text-decoration: none;
+}
+.sechdule button{
+    width: 15rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+    padding: 0.5rem;
+    background-color: rgb(196, 44, 44);
+    border-radius: 100px;
+    border: none;
+}
+
+/* for section 2 */
+
+.section2 {
+    height: 45rem;
+    width: 100%;
+    background: #FFA50057;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.section2 h1{
+    padding-top: 2rem;
+}
+.line2{
+    height: 2px;
+    width: 33rem;
+    background-color: #524D4D;
+    margin-left: 28rem;
+}
+.trainers{
+    color: white;
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.trainers button{
+    width: 15rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    color: white;
+    padding: 0.5rem;
+    background-color: #524D4D;
+    border-radius: 100px;
+    border: none;
+}
+
+/* this is section3 */
+
+.section3 .girls{
+    background-image: url("Fitness_Star_Gym 2/Rectangle 53.png");
+    height: 525px;
+    width: 100%;
+}
+
+.fa-arrow-right{
+    margin-top: 18%;
+    padding-right: 4rem;
+    float: right;
+    font-size: 3rem;
+}
+.fa-arrow-left{
+    margin-top: 18%;
+    padding-left: 4rem;
+    font-size: 3rem;
+}
+
+/* this is section4 */
+
+.section4{
+    height: 500px;
+    width: 100%;
+    background-color: #524D4D;
+}
+.about-gym{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 2rem 0 2rem;
+}
+.logo img{
+
+}
+.logo p{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #FFA500;
+    height: 5rem;
+    width: 25rem;
+    padding-top: 1rem;
+}
+.ccm{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 15rem;
+    width: 40%;
+}
+.ccm h1{
+    margin-left: 1.5rem;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+.ccm ul li{
+    list-style: none;
+    font-size: 24px;
+    margin-top: 1rem;
+    line-height: 3rem;
+}
+.tags{
+    margin-top: 1rem;
+    width: 25rem;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tags h1{
+    color: #FFA500;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2rem;
+    text-decoration: underline;
+}
+.btns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    height: 20rem;
+    width: 20rem;
+
+}
+.btns button{
+    margin: 0.5rem;
+    border: none;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.layout{
+    margin: 0;
+    padding: 0;
+    height: 5.1rem;
+    width: 100%;
+    color: black;
+    font-weight: 600;
+    font-size: 2rem;
+    background: #FFA500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
